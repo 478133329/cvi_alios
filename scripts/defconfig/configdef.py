@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+
+sensor_def = "CONFIG_SENSOR_"
+
+chip_def = "CONFIG_CHIP_"
+
+defconfig = [
+    "CONFIG_ARCH",
+    "CONFIG_CHIP",
+    "CONFIG_CHIP_ARCH_cv180x",
+    "CONFIG_CHIP_ARCH_cv181x",
+    "CONFIG_FAST_BOOT_MODE",
+    "CONFIG_COMPRESS_RTOS_BIN",
+    "CONFIG_VCODEC_FIRMWARE_H",
+    "CONFIG_RTOS_PRASE_PARAM",
+    "CONFIG_RTOS_ANNON_MSG",
+    "CONFIG_DW_UART",
+    "CONFIG_VIRTUAL_UART",
+    "CONFIG_C906L_DMA_ENABLE",
+    "CONFIG_AUD_DRV_SEL",
+]
